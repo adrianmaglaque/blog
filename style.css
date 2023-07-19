@@ -10,6 +10,8 @@ body {
     min-height: 100vh; flex-direction: column;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    color:white;
+    background-color:#f0f0f0;
 
  }
 
