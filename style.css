@@ -7,6 +7,9 @@ font-family: 'Lumanosimo', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'VT323', monospace; */
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+
 
 
 body { 
@@ -214,21 +217,31 @@ a:hover {
     font-size: 32px; 
     letter-spacing: -1px; 
     line-height: 1; 
+    text-align: center;
 }
 
 
 
 
 .body-blog{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
     margin: 0;
     font-weight: 500;
     line-height: 2rem;
+    text-align: center;
+    /* margin-left: 10rem;
+    margin-right: 10rem; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 
 hr{
+    margin: 10rem;
    background-color: white;
 }
 
@@ -248,3 +261,37 @@ hr{
     margin-top: 2rem;
     font-family: 'Lumanosimo', cursive;
 }
+
+.page-content2{
+    margin: auto;
+}
+
+.post-meta2{
+    text-align: center;
+}
+
+.jump{
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.jump a{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
