@@ -169,7 +169,6 @@ li {
 
 
 
-
 .navbar-brand:hover{
     text-decoration: underline;
 }
@@ -283,6 +282,17 @@ hr{
 
 
 
+.post img{
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    /* align-items: center;
+    justify-content: center; */
+    width: 90%;
+    border-radius: .4rem;
+    object-fit: cover;
+}
 
 
 
